@@ -3,7 +3,7 @@
 # Space: O(k), unique triplets
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
-        nums.sort()     # two-pointer needs sorted array
+        nums.sort()     
         out = []
 
         for i in range(len(nums)):
