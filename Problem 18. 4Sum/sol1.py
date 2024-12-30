@@ -3,7 +3,7 @@
 class Solution:
     def fourSum(self, nums: List[int], target: int) -> List[List[int]]:
         out = []
-        nums.sort()    # 2-pointer needs sorted array 
+        nums.sort()    
         
         for i in range(len(nums)):
             for j in range(len(nums)):
