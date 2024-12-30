@@ -4,7 +4,7 @@ class Solution:
         diff = []    # to store difference between target and original sum
         sums = []    # to store original sums
         n = len(nums)
-        nums.sort()    # 2-pointer needs sorted array
+        nums.sort()    
 
         for i in range(n):
             left = i + 1
